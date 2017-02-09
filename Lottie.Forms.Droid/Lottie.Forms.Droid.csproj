@@ -110,13 +110,13 @@
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lottie.Droid\Lottie.Droid.csproj">
-      <Project>{0183abdf-f583-4e8a-8055-5369192ee42d}</Project>
-      <Name>Lottie.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lottie.Forms\Lottie.Forms.csproj">
       <Project>{F03D2DD6-BBDA-45B9-982E-4DCA43FCB8E1}</Project>
       <Name>Lottie.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lottie.Droid\Lottie.Droid.csproj">
+      <Project>{0183ABDF-F583-4E8A-8055-5369192EE42D}</Project>
+      <Name>Lottie.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
